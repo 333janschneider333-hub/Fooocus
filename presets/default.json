@@ -56,5 +56,8 @@
         "juggernautXL_v7Rundiffusion.safetensors",
         "juggernautXL_version6Rundiffusion.safetensors",
         "juggernautXL_v6Rundiffusion.safetensors"
-    ]
+.\python_embeded\python.exe -m pip uninstall torch torchvision torchaudio torchtext functorch xformers -y
+.\python_embeded\python.exe -m pip install torch-directml
+.\python_embeded\python.exe -s Fooocus\entry_with_update.py --directml
+pause ]
 }
